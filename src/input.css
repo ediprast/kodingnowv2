@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  @apply bg-white-light;
+}
+
+.container {
+  @apply mx-auto py-5 px-3 md:px-5 lg:px-32;
+}
+
+.btn-white {
+  @apply bg-white border-2 border-purple-light text-purple-light rounded-lg py-3 w-full text-center transition-all duration-300 hover:bg-purple-light hover:text-white;
+}
+
+.btn-purple {
+  @apply bg-purple-light border-2 border-white rounded-lg py-3 w-full text-center transition-all duration-300 hover:bg-white hover:text-purple-light;
+}
+
+.btn-white-rounded {
+  @apply text-purple-light border border-purple-light py-2 px-6 rounded-full transition-all duration-300 hover:bg-purple-light hover:text-white;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  @apply h-[100vh] flex justify-center;
+}
+
+.header:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 0 0 50% 50%/0 0 100% 100%;
+  transform: scaleX(1.5);
+  @apply bg-blue-light h-1/2 md:h-1/2 lg:h-2/3;
+}
+
+.navbar {
+  backdrop-filter: blur(5px);
+}
+
+.nav-link {
+  @apply hover:text-purple-light;
+}
+
+.nav-active {
+  @apply font-semibold text-purple-light;
+}
+
+.service-item {
+  @apply w-full bg-white rounded-lg p-10;
+}
+
+.pricing-item {
+  @apply flex flex-col rounded-xl p-6 w-full;
+}
+
+.whyus-item {
+  @apply w-full flex flex-row gap-4;
+}
+
+.work-item {
+  @apply w-full h-72 md:h-80 bg-purple-light rounded-lg p-5 text-center;
+}
+
+footer a {
+  @apply transition-all duration-300 hover:text-purple-light;
+}
