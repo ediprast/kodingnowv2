@@ -1141,11 +1141,11 @@ html {
 }
 
 .header {
-  position: relative;
   width: 100%;
   overflow: hidden;
+  position: relative;
   display: flex;
-  height: 100vh;
+  height: auto;
   justify-content: center;
 }
 
@@ -1157,6 +1157,7 @@ html {
   width: 100%;
   border-radius: 0 0 50% 50%/0 0 100% 100%;
   transform: scaleX(1.5);
+  z-index: -10;
   height: 50%;
   --tw-bg-opacity: 1;
   background-color: rgb(243 247 255 / var(--tw-bg-opacity));

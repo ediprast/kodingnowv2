@@ -29,10 +29,9 @@ html {
 }
 
 .header {
-  position: relative;
   width: 100%;
   overflow: hidden;
-  @apply h-[100vh] flex justify-center;
+  @apply h-auto relative flex justify-center;
 }
 
 .header:before {
@@ -43,7 +42,7 @@ html {
   width: 100%;
   border-radius: 0 0 50% 50%/0 0 100% 100%;
   transform: scaleX(1.5);
-  @apply bg-blue-light h-1/2 md:h-1/2 lg:h-2/3;
+  @apply bg-blue-light -z-10 h-1/2 md:h-1/2 lg:h-2/3;
 }
 
 .navbar {
