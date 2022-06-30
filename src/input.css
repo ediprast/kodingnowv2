@@ -58,7 +58,7 @@ html {
 }
 
 .service-item {
-  @apply w-full bg-white rounded-lg p-10;
+  @apply w-full bg-white rounded-lg p-12;
 }
 
 .pricing-item {
