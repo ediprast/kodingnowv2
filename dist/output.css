@@ -779,8 +779,20 @@ video {
   gap: 5rem;
 }
 
+.gap-12{
+  gap: 3rem;
+}
+
+.gap-3{
+  gap: 0.75rem;
+}
+
 .gap-10{
   gap: 2.5rem;
+}
+
+.gap-7{
+  gap: 1.75rem;
 }
 
 .overflow-hidden{
@@ -899,29 +911,19 @@ video {
   padding-bottom: 5rem;
 }
 
-.px-16{
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
-.px-2{
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.py-4{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+.px-3{
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .py-5{
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .pt-20{
@@ -930,6 +932,14 @@ video {
 
 .pb-10{
   padding-bottom: 2.5rem;
+}
+
+.pb-5{
+  padding-bottom: 1.25rem;
+}
+
+.pt-10{
+  padding-top: 2.5rem;
 }
 
 .text-center{
@@ -1158,21 +1168,9 @@ html {
   border-radius: 0 0 50% 50%/0 0 100% 100%;
   transform: scaleX(1.5);
   z-index: -10;
-  height: 50%;
+  height: 75%;
   --tw-bg-opacity: 1;
   background-color: rgb(243 247 255 / var(--tw-bg-opacity));
-}
-
-@media (min-width: 768px){
-  .header:before{
-    height: 50%;
-  }
-}
-
-@media (min-width: 1024px){
-  .header:before{
-    height: 66.666667%;
-  }
 }
 
 .navbar {
@@ -1369,6 +1367,11 @@ footer a:hover{
     justify-content: flex-start;
   }
 
+  .lg\:px-36{
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+
   .lg\:px-20{
     padding-left: 5rem;
     padding-right: 5rem;
@@ -1376,5 +1379,12 @@ footer a:hover{
 
   .lg\:text-left{
     text-align: left;
+  }
+}
+
+@media (min-width: 1280px){
+  .xl\:px-64{
+    padding-left: 16rem;
+    padding-right: 16rem;
   }
 }
