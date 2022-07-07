@@ -21,7 +21,7 @@
                     </div>
 
                     <div class="">
-                            <a href="../works.html" class="bg-purple-light rounded-full py-2 px-5 text-white-light transition-all duration-300 border border-purple-light hover:bg-white hover:text-purple-light">List Projects</a>
+                            <a href="/" class="bg-purple-light rounded-full py-2 px-5 text-white-light transition-all duration-300 border border-purple-light hover:bg-white hover:text-purple-light">Home</a>
                     </div>
                 </div>
             </div>
@@ -30,21 +30,108 @@
 
     <section class="py-20">
         <div class="container">
-            <h2 class="font-semibold text-center text-xl md:text-3xl">Rumah Vokasi Web</h2>
-            <p class="text-center text-gray-700 mb-10">Our Works</p>
-
-            <div class="w-full lg:w-1/2 mx-auto mb-10">
-                <div class="rounded-lg overflow-hidden">
-                    <img class="object-cover" src="../images/works/rumahvokasi.png" alt="Our Works Image">
+            <h2 class="font-semibold text-center text-xl md:text-3xl">Our Works</h2>
+            <p class="text-center text-gray-500 mb-10">List of projects we have completed</p>
+            <div>
+            <div class="work-filters justify-center items-center flex flex-row gap-6 mb-6">
+                <div>
+                    <span class="work-nav active-work" data-filter="all">All</span>
+                </div>
+                <div>
+                    <span class="work-nav" data-filter=".web">Web</span>
+                </div>
+                <div>
+                    <span class="work-nav" data-filter=".android">Android</span>
                 </div>
             </div>
-
-            <div class="flex flex-col gap-8">
-                <h5 class="text-xl font-semibold">Description:</h5>
-                <p class="text-gray-700">Rumah Vocational Web is a website-based online learning that implements the concept of blended learning learning design, combining online and offline learning in a more practical, interactive way.</p>
-                <h5 class="">Year: 2022</h5>
-                <div>
-                    <a href="https://rumahvokasi.com" target="_blank" class="btn-white-rounded">View Result</a>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="work-container grid grid-cols-1 gap-6 mb-10 md:grid-cols-2 lg:grid-cols-3">
+                <div class="work-item mix web">
+                    <div class="h-4/5 relative rounded-lg overflow-hidden mb-5 group">
+                        <img class="h-full w-full object-cover absolute" src="./images/works/rumahvokasi.png" alt="Our Works Image">
+                        
+                        <div class="w-full h-full absolute flex items-center justify-center opacity-70 transition-all duration-300 group-hover:bg-blue-bold">
+                            <a href="pages/rumah_vokasi_web.html" class="text-center hidden group-hover:inline">
+                                <img src="./images/icons/link.svg" alt="Link Icon">
+                            </a>
+                        </div>
+                    </div>
+                    <a href="pages/rumah_vokasi_web.html" class="font-semibold text-lg text-white transition-all duration-300 hover:underline">Rumah Vokasi Web</a>
+                </div>
+                <div class="work-item mix android">
+                    <div class="h-4/5 relative rounded-lg overflow-hidden mb-5 group">
+                        <img class="h-full w-full object-cover absolute" src="./images/works/rumahvokasiapp.png" alt="Our Works Image">
+                        
+                        <div class="w-full h-full absolute flex items-center justify-center opacity-70 transition-all duration-300 group-hover:bg-blue-bold">
+                            <a href="./pages/rumah_vokasi_app.html" class="text-center hidden group-hover:inline">
+                                <img src="./images/icons/link.svg" alt="Link Icon">
+                            </a>
+                        </div>
+                    </div>
+                    <a href="./pages/rumah_vokasi_app.html" class="font-semibold text-lg text-white transition-all duration-300 hover:underline">Rumah Vokasi App</a>
+                </div>
+                <div class="work-item mix web">
+                    <div class="h-4/5 relative rounded-lg overflow-hidden mb-5 group">
+                        <img class="h-full w-full object-cover absolute" src="./images/works/dimensipesantren.png" alt="Our Works Image">
+                        
+                        <div class="w-full h-full absolute flex items-center justify-center opacity-70 transition-all duration-300 group-hover:bg-blue-bold">
+                            <a href="./pages/dimensi_pesantren_web.html" class="text-center hidden group-hover:inline">
+                                <img src="./images/icons/link.svg" alt="Link Icon">
+                            </a>
+                        </div>
+                    </div>
+                    <a href="./pages/dimensi_pesantren_web.html" class="font-semibold text-lg text-white transition-all duration-300 hover:underline">Dimensi Pesantren Web</a>
+                </div>
+                <div class="work-item mix android">
+                    <div class="h-4/5 relative rounded-lg overflow-hidden mb-5 group">
+                        <img class="h-full w-full object-cover absolute" src="./images/works/dimensipesantren.png" alt="Our Works Image">
+                        
+                        <div class="w-full h-full absolute flex items-center justify-center opacity-70 transition-all duration-300 group-hover:bg-blue-bold">
+                            <a href="./pages/dimensi_pesantren_app.html" class="text-center hidden group-hover:inline">
+                                <img src="./images/icons/link.svg" alt="Link Icon">
+                            </a>
+                        </div>
+                    </div>
+                    <a href="./pages/dimensi_pesantren_app.html" class="font-semibold text-lg text-white transition-all duration-300 hover:underline">Dimensi Pesantren App</a>
+                </div>
+                <div class="work-item mix web">
+                    <div class="h-4/5 relative rounded-lg overflow-hidden mb-5 group">
+                        <img class="h-full w-full object-cover absolute" src="./images/works/I-KAIGI.png" alt="Our Works Image">
+                        
+                        <div class="w-full h-full absolute flex items-center justify-center opacity-70 transition-all duration-300 group-hover:bg-blue-bold">
+                            <a href="./pages/ikaigi_web.html" class="text-center hidden group-hover:inline">
+                                <img src="./images/icons/link.svg" alt="Link Icon">
+                            </a>
+                        </div>
+                    </div>
+                    <a href="./pages/ikaigi_web.html" class="font-semibold text-lg text-white transition-all duration-300 hover:underline">Conference Web</a>
+                </div>
+                <div class="work-item mix web">
+                    <div class="h-4/5 relative rounded-lg overflow-hidden mb-5 group">
+                        <img class="h-full w-full object-cover absolute" src="./images/works/learningonline.png" alt="Our Works Image">
+                        
+                        <div class="w-full h-full absolute flex items-center justify-center opacity-70 transition-all duration-300 group-hover:bg-blue-bold">
+                            <a href="./pages/online_learning.html" class="text-center hidden group-hover:inline">
+                                <img src="./images/icons/link.svg" alt="Link Icon">
+                            </a>
+                        </div>
+                    </div>
+                    <a href="./pages/online_learning.html" class="font-semibold text-lg text-white transition-all duration-300 hover:underline">Online Learning Web</a>
+                </div>
+                <div class="work-item mix web">
+                    <div class="h-4/5 relative rounded-lg overflow-hidden mb-5 group">
+                        <img class="h-full w-full object-cover absolute" src="./images/works/eccl.png" alt="Our Works Image">
+                        
+                        <div class="w-full h-full absolute flex items-center justify-center opacity-70 transition-all duration-300 group-hover:bg-blue-bold">
+                            <a href="./pages/eccl_web.html" class="text-center hidden group-hover:inline">
+                                <img src="./images/icons/link.svg" alt="Link Icon">
+                            </a>
+                        </div>
+                    </div>
+                    <a href="./pages/eccl_web.html" class="font-semibold text-lg text-white transition-all duration-300 hover:underline">ECCL Web</a>
                 </div>
             </div>
         </div>
@@ -56,9 +143,9 @@
                 <div id="contact" class="w-full flex flex-col gap-12 lg:w-1/3">
                     <h3 class="text-3xl">KodingNow</h3>
                     <div class="flex flex-row items-center border border-gray-500 rounded-md px-3 py-5 gap-3">
-                        <img src="../images/icons/mail.svg" alt="Mail Icon">
+                        <img src="./images/icons/mail.svg" alt="Mail Icon">
                         <input type="email" class="w-full bg-white-light focus:outline-none" placeholder="Your email">
-                        <a href="#"><img class="w-8" src="../images/icons/send.svg" alt="Send Icon"></a>
+                        <a href="#"><img class="w-8" src="./images/icons/send.svg" alt="Send Icon"></a>
                     </div>
                     <div class="flex flex-row justify-center gap-12 mb-2 lg:justify-start">
                         <div>
@@ -143,5 +230,27 @@
         </svg>
     </a>
 
+    <script src="./dist/mixitup.min.js"></script>
+    <script>
+        let mixerPortfolio = mixitup(".work-container", {
+        selectors: {
+            target: ".work-item",
+        },
+        animation: {
+            duration: 300,
+        },
+        });
+
+        /* Link active work */
+        const linkwork = document.querySelectorAll(".work-nav");
+
+        function activeWork() {
+        linkwork.forEach((l) => l.classList.remove("active-work"));
+        this.classList.add("active-work");
+        console.log("clicked");
+        }
+
+        linkwork.forEach((l) => l.addEventListener("click", activeWork));
+    </script>
 </body>
 </html>

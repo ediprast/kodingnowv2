@@ -42,7 +42,7 @@ html {
   width: 100%;
   border-radius: 0 0 50% 50%/0 0 100% 100%;
   transform: scaleX(1.2);
-  @apply bg-blue-light -z-10 h-[40%] md:h-[75%] lg:h-[80%];
+  @apply opacity-0 bg-blue-light -z-10 h-[40%] md:opacity-100 md:h-[75%] lg:h-[80%];
 }
 
 .navbar {
@@ -71,6 +71,14 @@ html {
 
 .work-item {
   @apply w-full h-72 md:h-80 bg-purple-light rounded-lg p-5 text-center;
+}
+
+.active-work {
+  @apply bg-blue-bold rounded-md px-5 py-2 text-white;
+}
+
+.work-nav {
+  @apply hover:text-white hover:cursor-pointer hover:bg-purple-light rounded-md px-5 py-2;
 }
 
 footer a {
